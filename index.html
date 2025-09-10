@@ -732,19 +732,25 @@
     </div>
 
     <!-- Botão da direita -->
-    <div class="rounded-3xl border border-zinc-200/60 dark:border-white/10 shadow-sm p-8 bg-white dark:bg-white/5 text-center brand-ring gold-top">
-      <a class="btn-primary w-full inline-flex items-center justify-center"
-         href="mailto:ligalaipeem@gmail.com?subject=Contato%20LAIPEEM&body=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20com%20a%20equipe."
-         target="_blank" rel="noopener">
-        ✉️ Enviar e-mail
-      </a>
-      <p class="text-[11px] text-zinc-500 dark:text-zinc-400 mt-3">
-        Alternativa rápida de contato direto por e-mail.
-      </p>
-    </div>
+<div class="rounded-3xl border border-zinc-200/60 dark:border-white/10 shadow-sm p-8 bg-white dark:bg-white/5 text-center brand-ring gold-top space-y-4">
+  
+  <!-- Botão principal (App de e-mail - celular) -->
+  <a href="mailto:ligalaipeem@gmail.com?subject=Contato%20LAIPEEM&body=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20com%20a%20equipe."
+     class="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[color:var(--navy)] px-5 py-3 font-semibold text-white shadow-md hover:bg-[color:var(--navy)]/90 hover:shadow-lg transition">
+    📱 <span>Enviar e-mail (App do celular)</span>
+  </a>
 
-  </div>
-</section>
+  <!-- Botão secundário (Navegador - Gmail/Outlook web) -->
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ligalaipeem@gmail.com&su=Contato%20LAIPEEM&body=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20com%20a%20equipe."
+     target="_blank" rel="noopener"
+     class="w-full inline-flex items-center justify-center gap-2 rounded-xl border-2 border-[color:var(--gold)] px-5 py-3 font-semibold text-[color:var(--gold)] hover:bg-[color:var(--gold)] hover:text-[#0b1020] transition">
+    💻 <span>Enviar e-mail (Abrir no navegador)</span>
+  </a>
+
+  <p class="text-[12px] text-zinc-500 dark:text-zinc-400 mt-3">
+    Escolha a forma que preferir para falar com a equipe.
+  </p>
+</div>
 
 <!-- Fale Conosco -->
 <section id="contato" class="bg-zinc-50 dark:bg-[#0d1430]">
